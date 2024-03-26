@@ -1,0 +1,13 @@
+#config data source
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.datasource.url=
+spring.datasource.username=
+spring.datasource.password=
+
+#config hibernate
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.properties.hibernate.show_sql=true
+
+
+#for using correctly http methods PUT, PATCH, DELETE in thymeleaf
+spring.mvc.hiddenmethod.filter.enabled=true
